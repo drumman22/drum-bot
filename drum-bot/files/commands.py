@@ -35,7 +35,7 @@ async def ban(message, author, server, bot):
             if message.mentions[0] and msg[0] and msg[2]:
                 if func.has_roles(message, 'Admin'):
                     # pm user, modlog, kicks
-                    await bot.send_message(message.mentions[0],'You have been **BANNED** from *'+server.name+'* by a staff member, issued at *'+str(message.timestamp)+'* for : \"'+msg[2]+'\"\nYou may request an appeal here : https://goo.gl/trptWd')
+                    await bot.send_message(message.mentions[0],'You have been **BANNED** from *'+server.name+'* by a staff member, issued at *'+str(message.timestamp)+'* for : \"'+msg[2]+'\"')
                     await bot.send_message(channel,'ID = '+str(mssage.mentions[0].id)+' <@'+str(message.mentions[0].id)+'> has been **BANNED** by a staff member, issued at *'+str(message.timestamp)+'* for : \"'+msg[2]+'\"')
                     await bot.ban(message.mentions[0])
                 else:
@@ -54,7 +54,7 @@ async def suspend(message, author, server, bot):
             if message.mentions[0] and msg[0] and msg[2]:
                 if func.has_roles(message, 'Admin'):
                     # pm user, modlog, removes roles, add roles
-                    await bot.send_message(message.mentions[0],'You have been **SUSPENDED** from *'+server.name+'* by a staff member, issued at *'+str(message.timestamp)+'* for : \"'+msg[2]+'\"\nSuspension information can be found here : https://goo.gl/GzXRoI')
+                    await bot.send_message(message.mentions[0],'You have been **SUSPENDED** from *'+server.name+'* by a staff member, issued at *'+str(message.timestamp)+'* for : \"'+msg[2]+'\"')
                     await bot.send_message(channel,'ID = '+str(mssage.mentions[0].id)+' <@'+str(message.mentions[0].id)+'> has been **SUSPENDED** by a staff member, issued at *'+str(message.timestamp)+'* for : \"'+msg[2]+'\"')
                     await bot.replace_roles(message.mentions[0],adding_role)
             else:
