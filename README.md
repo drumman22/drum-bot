@@ -4,7 +4,7 @@ There aren't many commands but this is mainly used for moderation.
 
 Was maded using python, discord.py library
 
--- To Customize
+# To Customize
 go to file.information to customize drum-bot
 
 
