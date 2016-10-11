@@ -5,6 +5,6 @@ There aren't many commands but this is mainly used for moderation.
 Was maded using python, discord.py library.
 
 # Cresidentials 
-go to file.information to change the cresidentials to your liking.
+go to drum-bot > files > information.py to change the cresidentials to your liking.
 
 
