@@ -3,7 +3,7 @@ from colorama import init, Fore, Back, Style
 init(autoreset=True)
 print(__name__ + '.py ' + Fore.GREEN + 'loaded')
 
-token = 'MjEzODY4NjU2MTYwMDE0MzM4.CtrE9w.8y0xjPHW76mno8xd5E1KhVP5RxQ'
+token = 'token_goes_here'
 prefix = '#'
 
 # character limit command
